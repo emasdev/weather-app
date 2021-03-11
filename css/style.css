@@ -1,0 +1,23 @@
+.flex-stretch {
+  display: flex;
+  background-color: yellow;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.flex-stretch > div {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
