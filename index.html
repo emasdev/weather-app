@@ -9,60 +9,67 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="flex-stretch">
-    <div id="weather-mexico">
-      <p class="name">México CDMX</p>
-      <p class="country">México CDMX</p>
-      <p class="main-temp">61°C</p>
-      <p class="weather-main">Clear Sky</p>
-      <div class="flex-stretch">
-        <p class="main-feels_like">Feels like: 57°</p>
-        <p class="main-humidity">Humidity levels: 51%</p>
-      </div>
-      <p class="wind-speed">Wind: 1.54k/m</p>
+  <div>
+    <div class="main-text">
+      <p>In this webpage you can compare the weather </br> with the one in my humble home in Mexico city</p>
+      <p>Hope you enjoy it!</p>
     </div>
-    <div>
+    <div class="flex-stretch">
+      <div id="weather-mexico" class="card">
+        <p class="country">México CDMX</p>
+        <p class="name">México CDMX</p>
+        <p class="main-temp">61°C</p>
+        <p class="weather-main">Clear Sky</p>
+        <div class="flex">
+          <p class="main-feels_like">Feels like: 57°</p>
+          <p class="main-humidity">Humidity levels: 51%</p>
+        </div>
+        <p class="wind-speed">Wind: 1.54k/m</p>
+      </div>
       <div>
-        <div class="section" id="section-menu">
-          <p>Menu</p>
-          <button id="get-current-location">Get current location</button>
-          </br>
-          <label for="lname">Find by city:</label>
-          <input type="text" id="city-input" name="city">
-          <button id="get-city-location">Search</button>
-        </div>
-        <div class="section hidden" id="section-location">
-          <button id="menu-btn">Back</button>
-          <div id="weather-location">
-            <p class="name">CDMX</p>
-            <p class="country">México</p>
-            <p class="main-temp">61°C</p>
-            <p class="weather-main">Clear Sky</p>
-            <div class="flex-stretch">
-              <p class="main-feels_like">Feels like: 57°</p>
-              <p class="main-humidity">Humidity levels: 51%</p>
-            </div>
-            <p class="wind-speed">Wind: 1.54k/m</p>
+        <div class="card">
+          <div class="section" id="section-menu">
+            <p>Menu</p>
+            <button id="get-current-location">Get current location</button>
+            </br>
+            <label for="lname">Find by city:</label>
+            <input type="text" id="city-input" name="city">
+            <button id="get-city-location">Search</button>
           </div>
+          <div class="section hidden" id="section-location">
+            <button id="menu-btn">Back</button>
+            <div id="weather-location">
+              <p class="country">México</p>
+              <p class="name">CDMX</p>
+              <p class="main-temp">61°C</p>
+              <p class="weather-main">Clear Sky</p>
+              <div class="flex">
+                <p class="main-feels_like">Feels like: 57°</p>
+                <p class="main-humidity">Humidity levels: 51%</p>
+              </div>
+              <p class="wind-speed">Wind: 1.54k/m</p>
+            </div>
+          </div>
+          
         </div>
-        
+      </div>
+    </div>
+    <div class="flex-center" id="weather-controls">
+      <div>
+        <input type="radio" class="radio" name="grades" value="celsius" checked>
+        <label for="celsius">Celsius</label>
+      </div>
+      <div>
+        <input type="radio" class="radio" name="grades" value="fahrenheit">
+        <label for="fahrenheit">Fahrenheit</label>
+      </div>
+      <div>
+        <input type="radio" class="radio" name="grades" value="kelvin">
+        <label for="kelvin">Kelvin</label>
       </div>
     </div>
   </div>
-  <div class="flex-center" id="weather-controls">
-    <div>
-      <input type="radio" class="radio" name="grades" value="celsius" checked>
-      <label for="celsius">Celsius</label>
-    </div>
-    <div>
-      <input type="radio" class="radio" name="grades" value="fahrenheit">
-      <label for="fahrenheit">Fahrenheit</label>
-    </div>
-    <div>
-      <input type="radio" class="radio" name="grades" value="kelvin">
-      <label for="kelvin">Kelvin</label>
-    </div>
-  </div>
+
   <script type="module" src="js/weather.js"></script>
   <script type="module" src="js/main.js"></script>
 </body>
