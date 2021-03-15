@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 .flex-stretch > div {
   width: 100%;
   border: 1px solid black;
@@ -20,4 +25,8 @@
 
 .text-center {
   text-align: center;
+}
+
+.hidden {
+  display: none;
 }
