@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/emasdev/weather-app/feature/webpage/index.html)
+[Live Demo Link](https://rawcdn.githack.com/emasdev/weather-app/feature/webpage/dist/index.html)
 
 ### Setup
 
