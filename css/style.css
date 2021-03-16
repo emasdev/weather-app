@@ -1,4 +1,4 @@
-body{
+body {
   background-image: url("../img/sky.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body{
   text-align: center;
 }
 
-.flex{
+.flex {
   display: flex;
   justify-content: space-around;
 }
@@ -27,7 +27,6 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 28px;
-
 }
 
 .flex-center > div {
@@ -37,6 +36,7 @@ body{
 .flex-stretch > div {
   width: 100%;
 }
+
 .text-right {
   text-align: right;
 }
@@ -53,9 +53,9 @@ body{
   display: none;
 }
 
-.card{
-  -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
-  box-shadow: 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+.card {
+  -webkit-box-shadow: 2px 5px 16px 0 #0b325e, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0 #0b325e, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   background-color: #ffffff94;
   width: 100%;
   height: 100%;
@@ -64,11 +64,11 @@ body{
   border-radius: 7px;
 }
 
-p{
+p {
   margin: 0;
 }
 
-.main-text{
+.main-text {
   color: white;
   font-size: 1.8rem;
   margin-left: 18px;
@@ -77,4 +77,9 @@ p{
   text-align: center;
   background-color: #0060ad9c;
   border-radius: 7px;
+}
+
+.bold {
+  font-weight: bold;
+  margin-bottom: 5px;
 }
