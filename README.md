@@ -21,7 +21,7 @@ Additional description about the project and its features.
 
 - clone repository
 - open terminal and run 'npm install'
-- run 'npm build'
+- run 'npm start'
 - open index.html insde dist folder
 
 ## Authors
