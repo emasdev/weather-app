@@ -19,7 +19,10 @@ Additional description about the project and its features.
 
 ### Setup
 
-- clone the project and open index.html file
+- clone repository
+- open terminal and run 'npm install'
+- run 'npm build'
+- open index.html insde dist folder
 
 ## Authors
 
