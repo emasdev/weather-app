@@ -16,7 +16,7 @@ const location = {
   longitude: -99.173382,
 };
 
-fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=${appId}`)
+fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=${appId}`)
   .then(response => response.json())
   .then(data => {
     weather1.data = data;
@@ -75,7 +75,7 @@ function initEvents() {
   document.getElementById('get-current-location')
     .addEventListener('click', () => {
       getLocation().then(location => {
-        fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=${appId}`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=${appId}`)
           .then(response => response.json())
           .then(data => {
             weather2.data = data;
@@ -88,7 +88,7 @@ function initEvents() {
   document.getElementById('get-city-location')
     .addEventListener('click', () => {
       const city = document.getElementById('city-input').value;
-      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${appId}`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${appId}`)
         .then(response => response.json())
         .then(data => {
           weather2.data = data;

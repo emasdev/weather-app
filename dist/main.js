@@ -40,26 +40,6 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // 
 
 /***/ }),
 
-/***/ "./src/index.html":
-/*!************************!*\
-  !*** ./src/index.html ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./css/style.css */ \"./src/css/style.css\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./main.js */ \"./src/main.js\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n  <meta charset=\\\"UTF-8\\\">\\r\\n  <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\">\\r\\n  <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n  <title>Weather App</title>\\r\\n\\r\\n  <link rel=\\\"stylesheet\\\" href=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\">\\r\\n</head>\\r\\n<body>\\r\\n  <div>\\r\\n    <div class=\\\"main-text\\\">\\r\\n      <p>In this webpage you can compare the weather </br> with the one in my humble home in Mexico city</p>\\r\\n      <p>Hope you enjoy it!</p>\\r\\n    </div>\\r\\n    <div class=\\\"flex-stretch\\\">\\r\\n      <div id=\\\"weather-mexico\\\" class=\\\"card\\\">\\r\\n        <p class=\\\"bold\\\">My location</p>\\r\\n        <p class=\\\"country\\\">México CDMX</p>\\r\\n        <p class=\\\"name\\\">México CDMX</p>\\r\\n        <p class=\\\"main-temp\\\">61°C</p>\\r\\n        <p class=\\\"weather-main\\\">Clear Sky</p>\\r\\n        <div class=\\\"flex\\\">\\r\\n          <p class=\\\"main-feels_like\\\">Feels like: 57°</p>\\r\\n          <p class=\\\"main-humidity\\\">Humidity levels: 51%</p>\\r\\n        </div>\\r\\n        <p class=\\\"wind-speed\\\">Wind: 1.54k/m</p>\\r\\n      </div>\\r\\n      <div>\\r\\n        <div class=\\\"card\\\">\\r\\n          <div class=\\\"section\\\" id=\\\"section-menu\\\">\\r\\n            <p class=\\\"bold\\\">Menu</p>\\r\\n            <button id=\\\"get-current-location\\\">Get current location</button>\\r\\n            </br>\\r\\n            <label for=\\\"lname\\\">Find by city:</label>\\r\\n            <input type=\\\"text\\\" id=\\\"city-input\\\" name=\\\"city\\\">\\r\\n            <button id=\\\"get-city-location\\\">Search</button>\\r\\n          </div>\\r\\n          <div class=\\\"section hidden\\\" id=\\\"section-location\\\">\\r\\n            <button id=\\\"menu-btn\\\">Back</button>\\r\\n            <div id=\\\"weather-location\\\">\\r\\n              <p class=\\\"bold\\\">Your location</p>\\r\\n              <p class=\\\"country\\\">México</p>\\r\\n              <p class=\\\"name\\\">CDMX</p>\\r\\n              <p class=\\\"main-temp\\\">61°C</p>\\r\\n              <p class=\\\"weather-main\\\">Clear Sky</p>\\r\\n              <div class=\\\"flex\\\">\\r\\n                <p class=\\\"main-feels_like\\\">Feels like: 57°</p>\\r\\n                <p class=\\\"main-humidity\\\">Humidity levels: 51%</p>\\r\\n              </div>\\r\\n              <p class=\\\"wind-speed\\\">Wind: 1.54k/m</p>\\r\\n            </div>\\r\\n          </div>\\r\\n          \\r\\n        </div>\\r\\n      </div>\\r\\n    </div>\\r\\n    <div class=\\\"flex-center\\\" id=\\\"weather-controls\\\">\\r\\n      <div>\\r\\n        <input type=\\\"radio\\\" class=\\\"radio\\\" name=\\\"grades\\\" value=\\\"celsius\\\" checked>\\r\\n        <label for=\\\"celsius\\\">Celsius</label>\\r\\n      </div>\\r\\n      <div>\\r\\n        <input type=\\\"radio\\\" class=\\\"radio\\\" name=\\\"grades\\\" value=\\\"fahrenheit\\\">\\r\\n        <label for=\\\"fahrenheit\\\">Fahrenheit</label>\\r\\n      </div>\\r\\n      <div>\\r\\n        <input type=\\\"radio\\\" class=\\\"radio\\\" name=\\\"grades\\\" value=\\\"kelvin\\\">\\r\\n        <label for=\\\"kelvin\\\">Kelvin</label>\\r\\n      </div>\\r\\n    </div>\\r\\n  </div>\\r\\n\\r\\n  <script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\"></script>\\r\\n</body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://weather-app/./src/index.html?");
-
-/***/ }),
-
-/***/ "./node_modules/html-loader/dist/runtime/getUrl.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/html-loader/dist/runtime/getUrl.js ***!
-  \*********************************************************/
-/***/ ((module) => {
-
-eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = String(url.__esModule ? url.default : url);\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  }\n\n  if (options.maybeNeedQuotes && /[\\t\\n\\f\\r \"'=<>`]/.test(url)) {\n    return \"\\\"\".concat(url, \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://weather-app/./node_modules/html-loader/dist/runtime/getUrl.js?");
-
-/***/ }),
-
 /***/ "./src/css/style.css":
 /*!***************************!*\
   !*** ./src/css/style.css ***!
@@ -96,7 +76,7 @@ eval("module.exports = __webpack_require__.p + \"6cc503bf3ed19359c1f2.jpg\";\n\n
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.html */ \"./src/index.html\");\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/style.css */ \"./src/css/style.css\");\n/* harmony import */ var _weather_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./weather.js */ \"./src/weather.js\");\n  \n\n\n\n\nconst weather1 = new _weather_js__WEBPACK_IMPORTED_MODULE_2__.default({\n  container: document.getElementById('weather-mexico'),\n});\n\nconst weather2 = new _weather_js__WEBPACK_IMPORTED_MODULE_2__.default({\n  container: document.getElementById('weather-location'),\n});\n\nconst appId = '8ca3d179747703e653793ebb8935cbbf';\nconst location = {\n  latitude: 19.363661,\n  longitude: -99.173382,\n};\n\nfetch(`http://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=${appId}`)\n  .then(response => response.json())\n  .then(data => {\n    weather1.data = data;\n    weather1.render();\n  });\n\nlet isMenuVisible = true;\nconst sections = {\n  menu: document.getElementById('section-menu'),\n  location: document.getElementById('section-location'),\n};\n\nfunction toogleMenu() {\n  if (isMenuVisible) {\n    sections.menu.classList.add('hidden');\n    sections.location.classList.remove('hidden');\n    isMenuVisible = false;\n  } else {\n    sections.menu.classList.remove('hidden');\n    sections.location.classList.add('hidden');\n    isMenuVisible = true;\n  }\n}\n\nfunction getLocation() {\n  return new Promise((resolve, reject) => {\n    if (navigator.geolocation) {\n      navigator.geolocation.getCurrentPosition((position) => {\n        resolve(\n          {\n            latitude: position.coords.latitude,\n            longitude: position.coords.longitude,\n          },\n        );\n      });\n    } else {\n      reject(new Error('Geolocation is not supported by this browser.'));\n    }\n  });\n}\n\nfunction initEvents() {\n  const checkboxes = document.getElementsByClassName('radio');\n  for (let i = 0; i < checkboxes.length; i += 1) {\n    const checkbox = checkboxes[i];\n    checkbox.addEventListener('click', (e) => {\n      weather1.grades = e.target.value;\n      weather1.render();\n      if (weather2.data) {\n        weather2.grades = e.target.value;\n        weather2.render();\n      }\n    });\n  }\n\n  document.getElementById('get-current-location')\n    .addEventListener('click', () => {\n      getLocation().then(location => {\n        fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=${appId}`)\n          .then(response => response.json())\n          .then(data => {\n            weather2.data = data;\n            weather2.render();\n          });\n      });\n      toogleMenu();\n    });\n\n  document.getElementById('get-city-location')\n    .addEventListener('click', () => {\n      const city = document.getElementById('city-input').value;\n      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${appId}`)\n        .then(response => response.json())\n        .then(data => {\n          weather2.data = data;\n          weather2.render();\n        });\n      toogleMenu();\n    });\n\n  document.getElementById('menu-btn')\n    .addEventListener('click', () => {\n      toogleMenu();\n    });\n}\n\n\nwindow.onload = () => {\n  initEvents();\n};\n\n//# sourceURL=webpack://weather-app/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/style.css */ \"./src/css/style.css\");\n/* harmony import */ var _weather__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./weather */ \"./src/weather.js\");\n\n\n\n\nconst weather1 = new _weather__WEBPACK_IMPORTED_MODULE_1__.default({\n  container: document.getElementById('weather-mexico'),\n});\n\nconst weather2 = new _weather__WEBPACK_IMPORTED_MODULE_1__.default({\n  container: document.getElementById('weather-location'),\n});\n\nconst appId = '8ca3d179747703e653793ebb8935cbbf';\nconst location = {\n  latitude: 19.363661,\n  longitude: -99.173382,\n};\n\nfetch(`https://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=${appId}`)\n  .then(response => response.json())\n  .then(data => {\n    weather1.data = data;\n    weather1.render();\n  });\n\nlet isMenuVisible = true;\nconst sections = {\n  menu: document.getElementById('section-menu'),\n  location: document.getElementById('section-location'),\n};\n\nfunction toogleMenu() {\n  if (isMenuVisible) {\n    sections.menu.classList.add('hidden');\n    sections.location.classList.remove('hidden');\n    isMenuVisible = false;\n  } else {\n    sections.menu.classList.remove('hidden');\n    sections.location.classList.add('hidden');\n    isMenuVisible = true;\n  }\n}\n\nfunction getLocation() {\n  return new Promise((resolve, reject) => {\n    if (navigator.geolocation) {\n      navigator.geolocation.getCurrentPosition((position) => {\n        resolve(\n          {\n            latitude: position.coords.latitude,\n            longitude: position.coords.longitude,\n          },\n        );\n      });\n    } else {\n      reject(new Error('Geolocation is not supported by this browser.'));\n    }\n  });\n}\n\nfunction initEvents() {\n  const checkboxes = document.getElementsByClassName('radio');\n  for (let i = 0; i < checkboxes.length; i += 1) {\n    const checkbox = checkboxes[i];\n    checkbox.addEventListener('click', (e) => {\n      weather1.grades = e.target.value;\n      weather1.render();\n      if (weather2.data) {\n        weather2.grades = e.target.value;\n        weather2.render();\n      }\n    });\n  }\n\n  document.getElementById('get-current-location')\n    .addEventListener('click', () => {\n      getLocation().then(location => {\n        fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=${appId}`)\n          .then(response => response.json())\n          .then(data => {\n            weather2.data = data;\n            weather2.render();\n          });\n      });\n      toogleMenu();\n    });\n\n  document.getElementById('get-city-location')\n    .addEventListener('click', () => {\n      const city = document.getElementById('city-input').value;\n      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${appId}`)\n        .then(response => response.json())\n        .then(data => {\n          weather2.data = data;\n          weather2.render();\n        });\n      toogleMenu();\n    });\n\n  document.getElementById('menu-btn')\n    .addEventListener('click', () => {\n      toogleMenu();\n    });\n}\n\n\nwindow.onload = () => {\n  initEvents();\n};\n\n//# sourceURL=webpack://weather-app/./src/main.js?");
 
 /***/ }),
 
@@ -135,9 +115,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -212,37 +189,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"main": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
-/******/ 	})();
-/******/ 	
 /************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/main.js");
 /******/ 	
 /******/ })()
