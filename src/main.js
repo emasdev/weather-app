@@ -1,5 +1,6 @@
-/* eslint-disable import/extensions */
-import Weather from './weather.js';
+
+import './css/style.css';
+import Weather from './weather';
 
 const weather1 = new Weather({
   container: document.getElementById('weather-mexico'),
