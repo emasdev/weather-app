@@ -1,6 +1,6 @@
-# Project Name
+# Weather App
 
-> One paragraph statement about the project.
+> I created a weather website using openweatherapi in which users can find by city or by geolocation and compare the weather status. Also you can change how the tempeture is display, it can be Celsius, Kelvin, Fahrenheit.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,50 +8,26 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- Javascript
+- OpenWeatherApi
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+[Live Demo Link](https://rawcdn.githack.com/emasdev/weather-app/feature/webpage/index.html)
 
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- clone the project and open index.html file
 
 ## Authors
 
-👤 **Author1**
+👤 **Emanuel González**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@emasdev](https://github.com/emasdev)
+- Twitter: [@elemasss](https://twitter.com/elemass)
+- Linkedin: [@emasdev](https://www.linkedin.com/in/emasdev/)
 
 ## 🤝 Contributing
 
@@ -65,9 +41,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- openweatherapi
 
 ## 📝 License
 
