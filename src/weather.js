@@ -10,6 +10,7 @@ class Weather {
     let feelsLike = this.data.main.feels_like;
     const windSpeed = `Wind: ${this.data.wind.speed} K/m`;
     const humidity = `Humidity levels: ${this.data.main.humidity}%`;
+    const icon = "<img src='http://openweathermap.org/img/w/" + this.data.weather[0].icon + ".png'>";
 
     if (this.grades === 'celsius') {
       temp = `${this.getCelsius(temp)}°C`;
@@ -21,8 +22,6 @@ class Weather {
       temp = `${temp}°K`;
       feelsLike = `Feels like: ${feelsLike}°K`;
     }
-
-    var icon = "<img src='http://openweathermap.org/img/w/" + this.data.weather[0].icon + ".png'>";
 
     this.container.querySelector('.name').innerHTML = this.data.name;
     this.container.querySelector('.country').innerHTML = this.data.sys.country;
