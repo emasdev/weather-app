@@ -32,20 +32,10 @@ Additional description about the project and its features.
 - Twitter: [@elemasss](https://twitter.com/elemass)
 - Linkedin: [@emasdev](https://www.linkedin.com/in/emasdev/)
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- openweatherapi
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- openweatherapi: (https://openweathermap.org/)

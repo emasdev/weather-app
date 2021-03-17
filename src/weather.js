@@ -22,10 +22,13 @@ class Weather {
       feelsLike = `Feels like: ${feelsLike}°K`;
     }
 
+    var icon = "<img src='http://openweathermap.org/img/w/" + this.data.weather[0].icon + ".png'>";
+
     this.container.querySelector('.name').innerHTML = this.data.name;
     this.container.querySelector('.country').innerHTML = this.data.sys.country;
     this.container.querySelector('.main-temp').innerHTML = temp;
     this.container.querySelector('.weather-main').innerHTML = this.data.weather[0].main;
+    this.container.querySelector('.icon').innerHTML = icon;
     this.container.querySelector('.wind-speed').innerHTML = windSpeed;
     this.container.querySelector('.main-feels_like').innerHTML = feelsLike;
     this.container.querySelector('.main-humidity').innerHTML = humidity;
