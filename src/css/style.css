@@ -1,0 +1,85 @@
+body {
+  background-image: url("../img/sky.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-stretch {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.flex-center > div {
+  background-color: white;
+}
+
+.flex-stretch > div {
+  width: 100%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  -webkit-box-shadow: 2px 5px 16px 0 #0b325e, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 16px 0 #0b325e, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  background-color: #ffffff94;
+  width: 100%;
+  height: 100%;
+  margin: 0 15px;
+  padding-top: 20px;
+  border-radius: 7px;
+}
+
+p {
+  margin: 0;
+}
+
+.main-text {
+  color: white;
+  font-size: 1.8rem;
+  margin-left: 18px;
+  margin-bottom: 18px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #0060ad9c;
+  border-radius: 7px;
+}
+
+.bold {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
